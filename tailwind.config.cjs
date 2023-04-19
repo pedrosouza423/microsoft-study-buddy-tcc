@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         galaxy: "url('/fundo-nlw-esport.png')",
-        'nlw-gradient': 'linear-gradient(90deg, rgba(39,37,98,1) 0%, rgba(0,120,192,1) 35%, rgba(64,166,226,1) 100%)',
+        'nlw-gradient': 'linear-gradient(90deg, rgba(0,120,192,1) 35%, rgba(64,166,226,1) 100%)',
         'certificiation-gradient': 'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 67.08%)'
       },
       keyframes: {

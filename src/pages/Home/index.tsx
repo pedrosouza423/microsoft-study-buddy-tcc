@@ -11,8 +11,7 @@ import '../../styles/main.css'
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Certifications } from "../../mock/Certifications";
-import logoImg from '../../assets/logo-nlw-esports.svg'
-import logoImg2 from '../../assets/logo-tcc.png'
+import logoImg2 from '../../assets/logo-tcc2.png'
 import { Certification, countAdsByGame } from "../Certification";
 
 export interface CertificationInfo extends Certification {

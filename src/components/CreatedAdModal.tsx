@@ -50,15 +50,15 @@ export function CreatedAtModal() {
       const data = Object.fromEntries(formData)
      
       if(!data.certificiation){
-        return toast.error("Informe o jogo")
+        return toast.error("Informe a certificação")
       }
     
       if (!data.name) {
         return toast.error("Informe seu Nome");
       }
       
-      if (!data.weeksStudying) {
-        return toast.error("Informe seu tempo de jogo");
+      if (!data.yearsPlaying) {
+        return toast.error("Informe quantas semanas você está estudando para essa certificação");
       }
   
       if (!data.discord) {
@@ -81,7 +81,7 @@ export function CreatedAtModal() {
           const newAd = {
             idGame: Number(data.certificiation),
             name: data.name,
-            weeksStudying: Number(data.weeksStudying),
+            yearsPlaying: Number(data.yearsPlaying),
             discord: data.discord,
             weekDays: weekDays.map(Number),
             hourStart: data.hourStart,
@@ -149,8 +149,8 @@ export function CreatedAtModal() {
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                   <div className='flex flex-col gap-2'>
-                    <label htmlFor="weeksStudying">Tem quantas semanas de estudo?</label>
-                    <Input name="weeksStudying" id="weeksStudying" placeholder="Tudo bem ser ZERO" type="number" min={0} max={50} />
+                    <label htmlFor="yearsPlaying">Tem quantas semanas de estudo?</label>
+                    <Input name="yearsPlaying" id="yearsPlaying" placeholder="Tudo bem ser ZERO" type="number" min={0} max={50} />
                   </div>
                   <div className='flex flex-col gap-2'>
                     <label htmlFor="discord">Digite seu nome no Discord:</label>

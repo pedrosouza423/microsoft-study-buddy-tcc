@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../../../assets/logo-tcc.png'
+import logo from '../../../assets/logo-tcc3.png'
 
 interface Props {
     title: string

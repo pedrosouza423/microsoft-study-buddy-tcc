@@ -7,7 +7,7 @@ export interface DuoCardProps {
     name: string;
     useVoiceChannel: boolean;
     weekDays: string[];
-    weeksStudying:number;
+    yearsPlaying:number;
 }
 
 interface Props {
@@ -31,7 +31,7 @@ export function DuoCard({data}: Props) {
                     
             <DuoInfo 
                 label="Tempo de estudos"
-                value={`${data.weeksStudying} semana(s)`}
+                value={`${data.yearsPlaying} semana(s)`}
             />
             
             <DuoInfo 

@@ -8,7 +8,7 @@ export type UserDiscord = {
 export interface AdFormData {
     certificiation?: string;
     name?: string;
-    weeksStudying?: number;
+    yearsPlaying?: number;
     discord?: string;
     weekDays?: number;
     hourStart?: string;

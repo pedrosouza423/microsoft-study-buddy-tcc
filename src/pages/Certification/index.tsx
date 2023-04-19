@@ -3,9 +3,8 @@ import { useEffect, useState } from "react";
 import { DuoCard, DuoCardProps } from "./components/DuoCard";
 import { Header } from "./components/Header";
 import { Certifications } from "../../mock/Certifications";
-import { ads } from "../../mock/Ads";
 import * as Dialog from '@radix-ui/react-dialog'
-import { DotsThreeCircle, GameController, MagnifyingGlassPlus } from "phosphor-react";
+import { DotsThreeCircle,  MagnifyingGlassPlus, Book } from "phosphor-react";
 import { CreatedAtModal } from "../../components/CreatedAdModal";
 import axios from "axios";
 import { ToastContainer } from "react-toastify";
@@ -121,7 +120,7 @@ export function Certification() {
                         <h2 className="font-bold text-4xl  text-white mr-3">Sobre</h2>
                         <a target="_blank" href={certificiation.link}>
                             <div className="bg-zinc-600 rounded-full flex justify-center w-8 h-8 p-1 items-center hover:bg-zinc-500" title={certificiation.link}>
-                                <GameController weight="fill" size={22} className="text-zinc-200" />
+                                <Book weight="fill" size={22} className="text-zinc-200" />
                                 
                             </div>
                         </a>
