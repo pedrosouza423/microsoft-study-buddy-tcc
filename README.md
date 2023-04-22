@@ -4,15 +4,14 @@
 
 Tech Study Buddy é uma aplicação web responsiva desenvolvida por Pedro Henrique Fernandes Souza, cujo objetivo é auxiliar profissionais de TI a encontrar parceiros de estudo com interesses similares em certificações Microsoft. A plataforma permite aos usuários criar e gerenciar grupos de estudo, compartilhar recursos e materiais e obter apoio uns dos outros durante o processo de preparação para os exames de certificação.
 
-![Tela Inicial](../microsoft-study-buddy-tcc/src/assets/pages/tela-inicial.png)
-
+![Tela Inicial](./src/assets/pages/tela-inicial.png)
 ## Funcionalidades
 
 - Identificar as principais certificações Microsoft e os tópicos de estudo relacionados a cada uma delas
 - Desenvolver uma plataforma que facilite a criação e gerenciamento de grupos de estudo focados em certificações Microsoft
 - Implementar um sistema de busca e filtragem de usuários com base em suas preferências e objetivos de estudo
 
-![Certificação com anúncios](../microsoft-study-buddy-tcc/src/assets/pages/certificacao-anuncio.png)
+![Certificação com anúncios](./src/assets/pages/certificacao-anuncio.png)
 
 ## Tecnologias utilizadas
 
@@ -41,7 +40,7 @@ Tech Study Buddy é uma aplicação web responsiva desenvolvida por Pedro Henriq
 4. Inicie o servidor de desenvolvimento com `npm run dev`
 5. Abra seu navegador web moderno (Chrome, Firefox, Safari ou Edge) e acesse `http://localhost:3000`
 
-![Publicação de anúncio da certificação](../microsoft-study-buddy-tcc/src/assets/pages/publicacao-anuncio.png)
+![Publicação de anúncio da certificação](./src/assets/pages/publicacao-anuncio.png)
 
 ## Contribuição
 
